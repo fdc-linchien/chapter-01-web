@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+h1 {
+	color : lightseagreen;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	border: 1px solid green
+}
+p.zayuu{
+	color: red;
+	border: 1px solid blue;
+}
+p.profile{
+	
+}
