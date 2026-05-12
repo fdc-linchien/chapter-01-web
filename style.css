@@ -1,16 +1,51 @@
 @charset "UTF-8";
 
 h1 {
-	color : lightseagreen;
+	
+	color : rebeccapurple;
 	font-size: 30px;
 	text-align: center;
 	text-decoration: underline;
-	border: 1px solid green
+	border: 1px solid plum;
 }
-p.zayuu{
+h2{
+	text-decoration: underline;
+	color : rebeccapurple;
+}
+h3 {
+	box-shadow: 5px 5px 10px 0px #333333, 5px 5px 10px 0px #333333 inset;
+	-webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  padding: 1px;
+	  border-radius: 12px;
+	  border: 3px solid rebeccapurple;
+	  background-color: plum;
+	  height: 32px;
+	  width: 200px;
+	  margin: 0em 0em 0em 0em;
+	  text-align: center;
+}
+	
+.zayuu{
 	color: red;
 	border: 1px solid blue;
 }
-p.profile{
+.profile{
+	border: 1px solid plum;
+	max-width:940px;
 	
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  
+}
+.grid > * {
+  background-color: white;
+  border: 1px solid white;
+  padding: 1rem;
+  border: 1px solid plum;
+  max-width:260px;
 }
